@@ -12,3 +12,93 @@
     --grey: hsl(0, 0%, 50%);
     --black: hsl(0, 0%, 7%);
 }
+
+body{
+    background: var(--yellow);
+    font-family: "Figtree", sans-serif;
+    display: grid;
+    height: 100vh;
+    place-content: center;
+}
+
+h2{
+    font-weight: 900;
+}
+
+.card-container {
+    background: var(--white);
+    width: 384px;
+    height: 511px;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 6px 0px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 6px 0px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 6px 0px 0px rgba(0,0,0,0.75);   
+}
+
+.article__illustration {
+    border-radius: 10px;
+    width: 336px;
+    height: 200px;
+    position: relative;
+    top: 1.3rem;
+    left: 1.5rem;
+}
+
+.container__card, h2{
+    position: relative;
+    top: 4rem;
+    left: 1.5rem;
+}
+
+.container__card, .publication-date{
+    position: relative;
+    top: 3rem;
+    left: 1.5rem;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--black);
+}
+
+.container__card, .pub-description{
+    color: var(--grey);
+    position: relative;
+    top: 5rem;
+    left: 1.5rem;
+    font-weight: 500;
+    font-size: 16px;
+    width: 336px;
+    line-height: 23px;
+}
+
+.container__card, small:nth-child(1){
+    background-color: var(--yellow);
+    color: var(--black);
+    padding: 5px 10px;
+    font-weight: 800;
+    font-size: 16px;
+    position: relative;
+    left: 1.5rem;
+    border-radius: 5px;
+    position: relative;
+    top: 2rem;
+    left: 1.5rem;
+}
+
+.container__card, small:nth-child(2){
+    font-weight: 800;
+    font-size: 16px;
+    position: relative;
+    top: 6.5rem;
+    left: 2rem;
+}
+.avatar {
+    height: 32px;
+    position: relative;
+    top: 7rem;
+    left: 1.5rem;
+}
+
+
+@media(max-width: 768px){
+
+}
