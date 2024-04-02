@@ -46,13 +46,18 @@ h2{
 
 .container__card, h2{
     position: relative;
-    top: 4rem;
+    top: 5.5rem;
     left: 1.5rem;
+}
+
+h2:hover{
+    color: var(--yellow);
+    cursor: pointer;
 }
 
 .container__card, .publication-date{
     position: relative;
-    top: 3rem;
+    top: 4.5rem;
     left: 1.5rem;
     font-weight: 500;
     font-size: 16px;
@@ -62,7 +67,7 @@ h2{
 .container__card, .pub-description{
     color: var(--grey);
     position: relative;
-    top: 5rem;
+    top: 6rem;
     left: 1.5rem;
     font-weight: 500;
     font-size: 16px;
@@ -77,10 +82,9 @@ h2{
     font-weight: 800;
     font-size: 16px;
     position: relative;
-    left: 1.5rem;
     border-radius: 5px;
     position: relative;
-    top: 2rem;
+    top: 3rem;
     left: 1.5rem;
 }
 
@@ -100,5 +104,26 @@ h2{
 
 
 @media(max-width: 768px){
+    .container__card{
+        width: 327px;
+        height: 504px;
+    }
 
+    .article__illustration{
+        border-radius: 10px;
+        height: 200px;
+        position: relative;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+
+    .pub-description, .publication-date{
+        font-size: 0.8893rem;
+    }
+
+    small:nth-child(1){
+        font-size: 13px;
+    }
 }
